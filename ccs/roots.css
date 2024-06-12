@@ -1,0 +1,159 @@
+/* Global styles */
+@import url('https://fonts.cdnfonts.com/css/street-soul');
+@import url('https://fonts.cdnfonts.com/css/city-life');
+:root {
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Street Soul', sans-serif;
+    font-size: 40px;
+    
+}
+
+
+header {
+
+   background-color: red;
+    padding: 5px 0;
+}
+
+.header-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 20px;
+    -webkit-text-stroke: #000000 0.1px;
+}
+
+header nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em; 
+    padding: 5px 10px;
+    border-radius: 5px;
+    -webkit-text-stroke: #000000 1px;
+    text-shadow: #000000 3px 3px 3px;
+}
+
+header nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Section styles */
+section {
+    min-height: 100vh;    
+    background-image: url(https://cdn.britannica.com/20/218320-050-B18879F5/American-disc-jockey-DJ-Kook-Herc-Clive-Campbell-2018.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.content {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0); /* Add a slight background for better readability */
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.content h2 {
+    
+        font-size: 80px;
+        color: #673b90;
+        -webkit-text-stroke: 0.7px #000000;
+        text-shadow: #673b90 5px 10px 15px;
+        text-decoration: wavy 5px;
+}
+
+.content p {
+    font-size: 35px;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    -webkit-text-stroke: black 0.5px;
+    text-shadow: #000000 3px 3px 3px;
+    letter-spacing: 2px;
+}
+
+.elements {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.element {
+    width: 45%;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.element img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.element h3 {
+    font-size: 1.5em;
+    color: #673b90;
+    margin: 10px 0;
+    text-shadow: #000000 1px 1px 1px;
+    
+}
+
+.element p {
+    font-size: 30px;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-container {
+    width: 85%;
+    margin: auto;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+}
